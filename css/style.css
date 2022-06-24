@@ -1,0 +1,92 @@
+
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html,body{
+
+	height:100%;
+	background-color:#333;
+}
+
+.w50{
+
+	width:50%;
+	text-align:left;
+}
+
+.box{
+
+	width:100%;
+	max-width:500px;
+	height:500px;
+	margin:40px auto;
+	background:#c8c8c8;
+}
+
+.box h1{
+
+	padding:30px;
+	text-align:center;
+}
+
+form{
+
+	text-align:center;
+	width:100%;
+	padding:10px;
+}
+
+input[type=text]{
+
+	width:98%;
+	max-width:530px;
+	height:35px;
+	outline:0;
+}
+
+input[type=password]{
+
+	width:98%;
+	max-width:530px;
+	height:35px;
+	outline:0;
+}
+
+input[type=checkbox]{
+
+	margin-top:20px;
+
+}
+
+input[type=submit]{
+
+	width:480px;
+	height:40px;
+	margin-top:20px;
+	background:#069;
+	color:#fff;
+	border-radius:40px;
+	border:none;
+	cursor:pointer;
+}
+
+
+footer p{
+
+    margin:40px 0;
+    text-align:left;
+    font-size:20px;
+}
+
+button{
+
+	width:90px;
+	height:40px;
+	background:cyan;
+	color:#069;
+	border-radius:19px;
+}
