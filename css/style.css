@@ -1,92 +1,96 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 *{
 
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	font-family:'Roboto';
 }
 
 html,body{
 
 	height:100%;
-	background-color:#333;
 }
 
-.w50{
+.right{
 
-	width:50%;
-	text-align:left;
+	width: 50%;
+	
+	
 }
 
-.box{
+.left{
 
-	width:100%;
-	max-width:500px;
-	height:500px;
-	margin:40px auto;
-	background:#c8c8c8;
+	width: 50%;
+	
 }
 
-.box h1{
+.center{
 
-	padding:30px;
+	width:98%;
+	margin-top:20px;
+}
+
+header{
+
 	text-align:center;
+	padding:30px;
+
 }
 
 form{
 
-	text-align:center;
 	width:100%;
-	padding:10px;
+	max-width:500px;
+	text-align:center;
+	margin:0 auto;
 }
 
 input[type=text]{
 
-	width:98%;
-	max-width:530px;
+	width:100%;
+	max-width:280px;
 	height:35px;
-	outline:0;
+	margin-top:20px;
 }
 
 input[type=password]{
 
-	width:98%;
-	max-width:530px;
+	width:100%;
+	max-width:280px;
 	height:35px;
-	outline:0;
+	margin-top:20px;
 }
 
 input[type=checkbox]{
 
 	margin-top:20px;
-
+	text-align:left;
 }
 
 input[type=submit]{
 
-	width:480px;
-	height:40px;
+	width:280px;
+	height:44px;
 	margin-top:20px;
-	background:#069;
+	background:darkblue;
 	color:#fff;
-	border-radius:40px;
+	text-transform:uppercase;
 	border:none;
 	cursor:pointer;
 }
 
-
-footer p{
-
-    margin:40px 0;
-    text-align:left;
-    font-size:20px;
-}
-
 button{
 
-	width:90px;
-	height:40px;
-	background:cyan;
-	color:#069;
-	border-radius:19px;
+	width:80px;
+	height:35px;
+	background-color:darkblue;
+	border-radius:30px;
+	cursor:pointer;
+	color:#fff;
+	border: none;
 }
+
